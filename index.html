@@ -38,14 +38,14 @@
                 <div class="staricon">
                     <i class="fas fa-star"></i>
                 </div>
-                <div class="lines" id="secondline"></div>
+                <div class="lines secondline"></div>
             </div>
             <div>
                 <p class="shortdescription">Graphic Artist - Web Designer - Illustrator</p>
             </div>
         </div>
     </header>
-    <section class="portfolioSection">
+    <section class="portfolioSection" id="Portfolio">
         <div>
             <div>
                 <h1 class="portfolioHeader">Portfolio</h1>
@@ -65,7 +65,7 @@
                     </div>
                     <div id="myModal" class="modal">
                         <div class="modal-content">
-                            <span class="close">
+                            <span class="close exitModal">
                                 <i class="fas fa-times exit"></i>
                             </span>
                             <h1 class="portfolioHeader">LOG CABIN</h1>
@@ -96,7 +96,7 @@
                     </div>
                     <div id="myModal" class="modal">
                         <div class="modal-content">
-                            <span class="close">
+                            <span class="close exitModal">
                                 <i class="fas fa-times exit"></i>
                             </span>
                             <h1 class="portfolioHeader">LOG CABIN</h1>
@@ -127,7 +127,7 @@
                     </div>
                     <div id="myModal" class="modal">
                         <div class="modal-content">
-                            <span class="close">
+                            <span class="close exitModal">
                                 <i class="fas fa-times exit"></i>
                             </span>
                             <h1 class="portfolioHeader">LOG CABIN</h1>
@@ -158,7 +158,7 @@
                     </div>
                     <div id="myModal" class="modal">
                         <div class="modal-content">
-                            <span class="close">
+                            <span class="close exitModal">
                                 <i class="fas fa-times exit"></i>
                             </span>
                             <h1 class="portfolioHeader">LOG CABIN</h1>
@@ -189,7 +189,7 @@
                     </div>
                     <div id="myModal" class="modal">
                         <div class="modal-content">
-                            <span class="close">
+                            <span class="close exitModal">
                                 <i class="fas fa-times exit"></i>
                             </span>
                             <h1 class="portfolioHeader">LOG CABIN</h1>
@@ -220,7 +220,7 @@
                     </div>
                     <div id="myModal" class="modal">
                         <div class="modal-content">
-                            <span class="close">
+                            <span class="close exitModal">
                                 <i class="fas fa-times exit"></i>
                             </span>
                             <h1 class="portfolioHeader">LOG CABIN</h1>
@@ -246,6 +246,67 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="aboutSection" id="About">
+        <div>
+            <h1 class="aboutHeader">About</h1>
+                <div class="linesContainer">
+                    <div class="lines" ></div>
+                    <div class="staricon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="lines secondline"></div>
+                </div>
+                <div class="descriptionRow">
+                <p class="aboutDescription">
+                    Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+                </p>
+                <p class="aboutDescription">
+                    You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                </p>
+                </div>
+                <div id="buttonrow">
+                <button class="downloadButton">Free Download!
+                <i class="fas fa-download" id="downloadIcon"></i>
+                </button>
+                </div>
+        </div>
+    </section>
+    <section class="contactSection" id="Contact">
+        <h1 class="portfolioHeader">Contact Me</h1>
+                <div class="linesContainer">
+                    <div class="lines" id="portfolioLines"></div>
+                    <div class="staricon" id="portfolioStaricon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="lines" id="secondPortfolioLine"></div>
+                </div>
+                <div class="contactForm">
+                    <form id="contactForm" method="post" accept-charset="">  
+                       <div class="control">
+                           <label>Name</label><br>
+                           <div>
+                            <input name="name" type="text" class="inputControl" placeholder="Name" required>
+                           
+                            </div>
+                            <br>  
+                            
+                       </div> 
+                        <div class="control">   
+                         <label>Email Address</label><br>                      
+                         <input name="enail" type="text" class="inputControl" placeholder="Email Address" required><br>
+                         </div> 
+                         <div class="control">   
+                          <label>Phone Number</label><br>                  
+                         <input name="phone" type="text" class="inputControl" placeholder="Phone Number" required><br>
+                        </div>
+                        <div class="control">
+                         <label>Message</label><br>
+                         <textarea name="message" class="inputControl" placeholder="Message" rows="5" required></textarea><br>
+                         </div>
+                         <button type="submit" class="sendButton">Send</button>
+                    </form>
+                </div>
     </section>
     <script src="js/script.js"></script>
 

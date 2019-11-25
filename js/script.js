@@ -17,6 +17,7 @@ function scrollFunction() {
 var modals = document.getElementsByClassName('modal');
 var btns = document.getElementsByClassName("openModal");
 var spans = document.getElementsByClassName("close");
+var buttons = document.getElementsByClassName("closeModal");
 
 for (let i = 0; i < btns.length; i++) {
     btns[i].onclick = function () {
@@ -25,6 +26,11 @@ for (let i = 0; i < btns.length; i++) {
 }
 for (let i = 0; i < spans.length; i++) {
     spans[i].onclick = function () {
+        modals[i].style.display = "none";
+    }
+}
+for (let i=0; i < buttons.length; i++) {
+    buttons[i].onclick = function () {
         modals[i].style.display = "none";
     }
 }
