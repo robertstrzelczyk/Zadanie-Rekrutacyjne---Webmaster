@@ -1,61 +1,254 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>Zadanie rekrutacyjne</title>
-     
-     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-   
+    <title>Zadanie rekrutacyjne</title>
+
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="css/style.css">
-     
+
 </head>
-<body>
-<header class="navHeader">
-     <a href="#" class="logo">Start Bootstrap</a>   
-    <nav class="pageNav">
-       <ul class="menu">
-           <li><a href="#Portfolio" class="menuItem">Portfolio</a></li>
-           <li><a href="#About" class="menuItem">About</a></li>
-           <li><a href="#Contact" class="menuItem">Contact</a></li>
-       </ul>
-    </nav>
-</header> 
+
+<body id="ab">
+    <header id="navHeaderId" class="navHeader">
+        <a href="#" class="logo" id="logoId">Start Bootstrap</a>
+        <nav class="pageNav">
+            <ul class="menu">
+                <li><a href="#Portfolio" class="menuItem">Portfolio</a></li>
+                <li><a href="#About" class="menuItem">About</a></li>
+                <li><a href="#Contact" class="menuItem">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <header class="home">
-    <div class="container">
-        <img src="img/avataaars.svg" class="avatar">
-        <h1 class="containerHeader">Start Bootstrap</h1>
-    <div class="linesContainer">
-        <div class="lines"></div>
-        <div class="staricon">
-            <i class="fas fa-star"></i>
+        <div class="container">
+            <img src="img/avataaars.svg" class="avatar">
+            <h1 class="containerHeader">Start Bootstrap</h1>
+            <div class="linesContainer">
+                <div class="lines"></div>
+                <div class="staricon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="lines" id="secondline"></div>
+            </div>
+            <div>
+                <p class="shortdescription">Graphic Artist - Web Designer - Illustrator</p>
+            </div>
         </div>
-        <div class="lines" id="secondline"></div>
-    </div>
-    <div>
-        <p class="shortdescription">Graphic Artist - Web Designer - Illustrator</p>
-    </div>
-    </div>
-    </header> 
+    </header>
     <section class="portfolioSection">
-       <div>
-        <h1 class="portfolioHeader">Portfolio</h1>
-        <div class="linesContainer">
-        <div class="lines" id="portfolioLines"></div>
-        <div class="staricon" id="portfolioStaricon">
-            <i class="fas fa-star"></i>
+        <div>
+            <div>
+                <h1 class="portfolioHeader">Portfolio</h1>
+                <div class="linesContainer">
+                    <div class="lines" id="portfolioLines"></div>
+                    <div class="staricon" id="portfolioStaricon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="lines" id="secondPortfolioLine"></div>
+                </div>
+                <div class="projectsGrid">
+                    <div class="imgcontainer openModal">
+                        <img src="img/portfolio/cabin.png" class="image">
+                        <div class="overlay">
+                            <i class="fas fa-plus" id="plusicon"></i>
+                        </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">
+                                <i class="fas fa-times exit"></i>
+                            </span>
+                            <h1 class="portfolioHeader">LOG CABIN</h1>
+                            <div class="linesContainer">
+                                <div class="lines" id="portfolioLines"></div>
+                                <div class="staricon" id="portfolioStaricon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="lines" id="secondPortfolioLine"></div>
+                            </div>
+                            <div class="imgdiv">
+                                <img src="img/portfolio/cabin.png">
+                            </div>
+                            <p class="descriptionmodal">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                            </p>
+                            <button class="closeModal">Close Window
+                                <i class="fas fa-times fa-fw closeicon"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="imgcontainer openModal">
+                        <img src="img/portfolio/cake.png" class="image">
+                        <div class="overlay">
+                            <i class="fas fa-plus" id="plusicon"></i>
+                        </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">
+                                <i class="fas fa-times exit"></i>
+                            </span>
+                            <h1 class="portfolioHeader">LOG CABIN</h1>
+                            <div class="linesContainer">
+                                <div class="lines" id="portfolioLines"></div>
+                                <div class="staricon" id="portfolioStaricon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="lines" id="secondPortfolioLine"></div>
+                            </div>
+                            <div class="imgdiv">
+                                <img src="img/portfolio/cake.png">
+                            </div>
+                            <p class="descriptionmodal">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                            </p>
+                            <button class="closeModal">Close Window
+                                <i class="fas fa-times fa-fw closeicon"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="imgcontainer openModal">
+                        <img src="img/portfolio/circus.png" class="image">
+                        <div class="overlay">
+                            <i class="fas fa-plus" id="plusicon"></i>
+                        </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">
+                                <i class="fas fa-times exit"></i>
+                            </span>
+                            <h1 class="portfolioHeader">LOG CABIN</h1>
+                            <div class="linesContainer">
+                                <div class="lines" id="portfolioLines"></div>
+                                <div class="staricon" id="portfolioStaricon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="lines" id="secondPortfolioLine"></div>
+                            </div>
+                            <div class="imgdiv">
+                                <img src="img/portfolio/circus.png">
+                            </div>
+                            <p class="descriptionmodal">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                            </p>
+                            <button class="closeModal">Close Window
+                                <i class="fas fa-times fa-fw closeicon"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="imgcontainer openModal">
+                        <img src="img/portfolio/game.png" class="image">
+                        <div class="overlay">
+                            <i class="fas fa-plus" id="plusicon"></i>
+                        </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">
+                                <i class="fas fa-times exit"></i>
+                            </span>
+                            <h1 class="portfolioHeader">LOG CABIN</h1>
+                            <div class="linesContainer">
+                                <div class="lines" id="portfolioLines"></div>
+                                <div class="staricon" id="portfolioStaricon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="lines" id="secondPortfolioLine"></div>
+                            </div>
+                            <div class="imgdiv">
+                                <img src="img/portfolio/game.png">
+                            </div>
+                            <p class="descriptionmodal">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                            </p>
+                            <button class="closeModal">Close Window
+                                <i class="fas fa-times fa-fw closeicon"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="imgcontainer openModal">
+                        <img src="img/portfolio/safe.png" class="image">
+                        <div class="overlay">
+                            <i class="fas fa-plus" id="plusicon"></i>
+                        </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">
+                                <i class="fas fa-times exit"></i>
+                            </span>
+                            <h1 class="portfolioHeader">LOG CABIN</h1>
+                            <div class="linesContainer">
+                                <div class="lines" id="portfolioLines"></div>
+                                <div class="staricon" id="portfolioStaricon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="lines" id="secondPortfolioLine"></div>
+                            </div>
+                            <div class="imgdiv">
+                                <img src="img/portfolio/safe.png">
+                            </div>
+                            <p class="descriptionmodal">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                            </p>
+                            <button class="closeModal">Close Window
+                                <i class="fas fa-times fa-fw closeicon"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="imgcontainer openModal">
+                        <img src="img/portfolio/submarine.png" class="image">
+                        <div class="overlay">
+                            <i class="fas fa-plus" id="plusicon"></i>
+                        </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">
+                                <i class="fas fa-times exit"></i>
+                            </span>
+                            <h1 class="portfolioHeader">LOG CABIN</h1>
+                            <div class="linesContainer">
+                                <div class="lines" id="portfolioLines"></div>
+                                <div class="staricon" id="portfolioStaricon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="lines" id="secondPortfolioLine"></div>
+                            </div>
+                            <div class="imgdiv">
+                                <img src="img/portfolio/submarine.png">
+                            </div>
+                            <p class="descriptionmodal">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                            </p>
+                            <button class="closeModal">Close Window
+                                <i class="fas fa-times fa-fw closeicon"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
-         <div class="lines" id="secondPortfolioLine"></div>
-        </div>
-        </div>
-    </section>  
-     <script src="js/script.js"></script>
-     
+    </section>
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
