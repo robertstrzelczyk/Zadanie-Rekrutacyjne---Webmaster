@@ -1,6 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
-    font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .navHeader {
@@ -64,6 +68,10 @@ nav {
 .menuItem:hover {
     color: #1abc9c;
     cursor: pointer;
+}
+
+.mobilebutton {
+    display: none;
 }
 
 .home {
@@ -130,13 +138,12 @@ nav {
 .shortdescription {
     color: #fff;
     font-size: 1.5rem;
-    font-weight: 400;  
+    font-weight: 400;
 }
 
 .portfolioSection {
     padding-top: 6rem;
     padding-bottom: 6rem;
-    margin-bottom: -30px;
 }
 
 .portfolioHeader {
@@ -316,18 +323,22 @@ nav {
     padding-right: 12px;
     height: 40px;
 }
+
 .closeModal:hover {
     cursor: pointer;
     background-color: #148f77;
     border-color: #12846e;
 }
+
 .closeicon {
     float: left;
 }
+
 .aboutSection {
     background-color: #1abc9c;
     padding: 6rem 0;
 }
+
 .aboutHeader {
     font-size: 3rem;
     color: #fff;
@@ -338,6 +349,7 @@ nav {
     margin-bottom: 0;
     margin-top: 0;
 }
+
 .aboutDescription {
     font-size: 1.25rem;
     color: #fff;
@@ -346,6 +358,7 @@ nav {
     padding-right: 15px;
     padding-left: 15px;
 }
+
 .descriptionRow {
     max-width: 1140px;
     margin: 0 auto;
@@ -353,42 +366,50 @@ nav {
     flex-direction: row;
     justify-content: center;
 }
+
 .downloadButton {
     background-color: transparent;
     border-color: #f8f9fa !important;
     border: .125rem solid transparent;
     border-radius: .5rem;
-    color: #f8f9fa;;
+    color: #f8f9fa;
+    ;
     padding: 1rem 1.75rem;
     font-size: 1.25rem;
     line-height: 1.5;
-    font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 400;
 }
+
 .downloadButton:hover {
     cursor: pointer;
     color: #212529;
     background-color: #f8f9fa;
     border-color: #f8f9fa;
 }
+
 #downloadIcon {
     float: left;
     margin-right: .5rem;
     margin-top: 5px;
 }
+
 #buttonrow {
-   text-align: center;
-   margin-top: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
 }
+
 .contactSection {
     padding: 6rem 0;
 }
+
 #contactForm {
     width: 730px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
+
 .inputControl {
     border: none;
     width: 100%;
@@ -399,12 +420,15 @@ nav {
     padding-bottom: 2rem;
     font-family: inherit;
 }
+
 label {
-   display: none;
+    display: none;
 }
+
 .control {
     padding-bottom: .5rem;
 }
+
 .sendButton {
     color: #fff;
     background-color: #1abc9c;
@@ -415,12 +439,336 @@ label {
     border: transparent;
     float: left;
 }
+
 .sendButton:hover {
     cursor: pointer;
     color: #fff;
     background-color: #159a80;
     border-color: #148f77;
 }
-textarea:focus, input:focus{
+
+textarea:focus,
+input:focus {
     outline: none;
+}
+
+.copyrightContainer {
+    background-color: #1a252f;
+    padding: 1rem;
+}
+
+.copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer {
+    padding-top: 3.1rem;
+    padding-bottom: 3.1rem;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.footerContainer {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.location {
+    text-align: center;
+    font-size: 1.25rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 350px;
+}
+
+.icondiv {
+    display: block;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 350px;
+}
+
+.icon {
+    font-size: 1.25rem;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 0.6em 0.6em;
+    color: #f8f9fa;
+    border: .125rem solid;
+    border-color: #f8f9fa;
+    margin-left: .25rem;
+    margin-right: .25rem;
+
+}
+
+.icon:hover {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+h4 {
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.freelancer {
+    font-size: 1.25rem;
+    color: #fff;
+    max-width: 350px;
+    line-height: 1.5;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.start {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.start:hover {
+    color: #117964;
+    text-decoration: underline;
+}
+
+.active {
+    font-family: 'Droid Sans', serif;
+    font-size: 14px;
+    background-color: #1abc9c;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.current {
+    background-color: #1abc9c;
+    border-radius: .5rem;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+    .navHeader {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        display: block;
+    }
+
+    nav {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 0;
+        padding-left: 3.2rem;
+        font-size: 1.25rem;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    ul li {
+        display: block;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .mobilebutton {
+        display: block !important;
+        background-color: #1abc9c;
+        border: .125rem solid transparent;
+        padding: .8rem;
+        border-radius: .5rem;
+        color: #fff;
+        line-height: 1;
+        text-transform: uppercase;
+        font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-weight: bold;
+    }
+
+    .mobilebutton:hover {
+        background-color: #148f77;
+        cursor: pointer;
+    }
+
+    .mobilebutton:focus,
+    .mobilebutton:focus {
+        outline: none;
+    }
+
+    .iconMenu {
+        float: right;
+        margin-left: 4px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container1 {
+        width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container1 {
+        width: 720px;
+    }
+}
+
+@media (max-width: 765px) {
+    .home {
+        width: 740px;
+    }
+
+    .aboutSection {
+        width: 740px;
+    }
+
+    .footer {
+        width: 740px;
+    }
+
+    .copyrightContainer {
+        width: 708px;
+    }
+
+    .descriptionRow {
+        max-width: 1140px;
+        margin: 0 auto;
+        display: grid;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .aboutDescription {
+        text-align: center;
+        font-size: 2.25rem;
+    }
+
+    .downloadButton {
+        font-size: 2.25rem;
+        padding: 3rem 2rem;
+    }
+
+    .shortdescription {
+        color: #fff;
+        font-size: 2.25rem;
+        font-weight: 400;
+    }
+
+    .footerContainer {
+        display: grid;
+    }
+
+    #Contact {
+        display: grid;
+        font-size: 2.25rem;
+    }
+
+    h4 {
+        font-size: 2.25rem;
+    }
+
+    .location p {
+        font-size: 2.25rem;
+    }
+
+    .freelancer p {
+        font-size: 2.25rem;
+    }
+
+    .sendButton {
+        font-size: 3.25rem;
+    }
+
+    .copyright {
+        font-size: 15px;
+    }
+
+    .icon {
+        font-size: 1.75rem;
+    }
+
+    .portfoliodiv {
+        display: grid;
+
+        width: 740px;
+    }
+
+    .image {
+        width: 708px;
+        border-radius: .5rem;
+        position: relative;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 710px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #1abc9c;
+        border-radius: .5rem;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .imgdiv > img {
+        width: 575px;
+        border-radius: .5rem;
+        margin-bottom: 3rem;
+    }
+
+    .descriptionmodal {
+        font-size: 1.75rem;
+    }
+
+    .closeModal {
+        color: #fff;
+        background-color: #1abc9c;
+        border-color: #1abc9c;
+        height: 24px;
+        border-radius: .5rem;
+        margin: 0 auto;
+        display: block;
+        border: .125rem solid transparent;
+        font-size: 1.5rem;
+        padding-top: 8px;
+        padding-bottom: 6px;
+        padding-left: 12px;
+        padding-right: 12px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 460px) {
+    .logo {
+        padding-left: 0;
+        width: 460px;
+    }
 }
