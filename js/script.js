@@ -3,7 +3,8 @@ window.onscroll = function () {
 };
 /*smaller nav section script*/
 function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    var wh = document.getElementById("navHeaderId");
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80 || wh.style.width <= "765px" ) {
         document.getElementById("navHeaderId").style.paddingTop = ".5rem";
         document.getElementById("navHeaderId").style.paddingBottom = ".5rem";
         document.getElementById("logoId").style.fontSize = "1.5em";
@@ -58,7 +59,7 @@ window.addEventListener("scroll", event => {
 
     mainNavLinks.forEach(link => {
         let section = document.querySelector(link.hash);
-
+        
         if (
             section.offsetTop <= fromTop &&
             section.offsetTop + section.offsetHeight > fromTop
